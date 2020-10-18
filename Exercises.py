@@ -47,8 +47,8 @@ else :
         print("Your last letter in your name is a consonant")
 
 
-Ask the user for two numbers (one after the other) 
-and then print their sum
+#Ask the user for two numbers (one after the other) 
+#and then print their sum
 
 
 first_num = input("Please enter your 1st number:\n")
@@ -58,9 +58,9 @@ second_num = input("Please enter your 2nd number:\n")
 print("Your sum is" , int(first_num)+int(second_num))
 
 
-Challenge the user to print the longest sentence without any “A”, 
-if he achieves it, tell him how many letters
-he wrote, else, print a fail message.
+#Challenge the user to print the longest sentence without any “A”, 
+#if he achieves it, tell him how many letters
+#he wrote, else, print a fail message.
 
 longest_sen  = input("Please enter your longest sentence:\n")
 
@@ -71,11 +71,11 @@ else:
 
 
 
-Ask the user for his full name (example: “John Doe”), and check the validity of his answer:
+#Ask the user for his full name (example: “John Doe”), and check the validity of his answer:
 
-The name should contain only letters.
-The name should contain only one space.
-The first letter of each name should be upper cased.
+#The name should contain only letters.
+#The name should contain only one space.
+#The first letter of each name should be upper cased.
 
 
 
@@ -156,7 +156,7 @@ for i in test_list2 :
 print(test_list1)
 
 
-Make a list of the multiples of 3 from 3 to 30. Use a for loop to print the numbers in your list.
+#Make a list of the multiples of 3 from 3 to 30. Use a for loop to print the numbers in your list.
 
 multiples = []
 
@@ -228,8 +228,8 @@ print(str_list)
 
 ##   While Loops    ###
 
-Write a loop that prompts the user to enter a series of pizza toppings until they enter a ‘quit’ value.
-As they enter each topping, print a message saying you’ll add that topping to their pizza .
+#Write a loop that prompts the user to enter a series of pizza toppings until they enter a ‘quit’ value.
+#As they enter each topping, print a message saying you’ll add that topping to their pizza .
 
 pizza_topping = ""
 
@@ -277,7 +277,7 @@ while count < 2701:
 print (final_list)
 
 
-Count the number of spaces in a string.
+#Count the number of spaces in a string.
 
 count = 0
 
@@ -357,7 +357,7 @@ for key, value in products.items():
 
 
 
-Write a Python program to remove duplicates values from Dictionary.
+#Write a Python program to remove duplicates values from Dictionary.
 
 
 
