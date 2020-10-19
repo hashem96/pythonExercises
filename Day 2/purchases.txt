@@ -1,0 +1,5 @@
+wine 
+tomato 
+eggs 
+total : 70 
+******************
