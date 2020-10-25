@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .container {
+    font-family: 'Open Sans', sans-serif
+  }
+  
+  .headerSection {
+    height: 100%;
+    width: 100%;
+    opacity: 0.95;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 15px;
+  }
+  
+  .lineBreak {
+    border-bottom: solid thin white;
+    width: 50%;
+  }
+  
+  #personalNameIntro {
+    text-shadow: 0 0 3px grey;
+  }
+  
+  #introHeader {
+    font-size: 30px;
+  }
+  
+  #downArrow {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .downArrowContainer {
+    margin-top: 50px;
+  }
+  
+  .bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+  }
+  
+  @-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+  
+  @-webkit-keyframes bounce {
+    40% {
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+
