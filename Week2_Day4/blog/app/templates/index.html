@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block main %}
+        <h1>Welcome to our shop</h1>
+        <p>
+            Where shopping is becoming quicker and eaiser.
+        </p>
+
+        {% if current_user.is_authenticated %}
+        <form action="" method="post">
+            {{ query_form.hidden_tag() }}
+            <p>Search a product: {{ query_form.query() }} {{ query_form.submit() }}</p>
+        </form>
+
+        {%else%}
+        <div>
+            
+        </div>
+
+        {%endif%}
+      
+{% endblock %}

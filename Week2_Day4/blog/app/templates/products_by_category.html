@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block main %}
+    <h1>Founded Products : </h1>
+
+    {% for product in filtred_products %}
+    <div>
+        <p> - {{product}}</p>
+    </div>
+    {% endfor %}
+{% endblock %}
